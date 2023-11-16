@@ -4,22 +4,22 @@
 // Debe ser posible enviarlo como argumento
 
 // Ejemplo 1: el numero 2 es un objeto de primera clase porque cumple con los requisitos descriptos arriba
-// return 2;
-// let number = 2;
-// hola(2);
+return 2;
+let number = 2;
+hola(2);
 
 // En JavaScript los numeros, las cadenas, los arreglos, los booleanos, las funciones y los objetos son considerados objetos de primera clase.
 
 // Ejemplo 2: 
-// function executor(funcion){
-//     funcion();
-// }
+function executor(funcion){
+    funcion();
+}
 
-// function decirHola(){
-//     console.log("hola");
-// }
+function decirHola(){
+    console.log("hola");
+}
 
-// executor(decirHola);
+executor(decirHola);
 
 // Una funcion puede retornar otra funcion
 function build(){
